@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##  Encapsulation
 
 Encapsulation yaitu cara menyembunyikan data di dalam kelas supaya tidak bisa diubah sembarangan dari luar. Di kode ini saya membuat atribut seperti `color`, `side`, `radius`, dan `height` tidak dibuat public, melainkan `private` atau `protected`. Untuk mengakses atau mengubahnya, harus lewat method getter dan setter. Contohnya seperti, `side` di kelas `Square` bersifat private, jadi untuk mengubah nilainya kita harus pakai `setSide()`, dan untuk membacanya pakai `getSide()`. Dengan begitu, data yang sudah saya buat di dalam objek tetap terjaga dan tidak bisa diubah menjadi nilai yang tidak valid.
