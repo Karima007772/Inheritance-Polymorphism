@@ -5,7 +5,7 @@ Encapsulation yaitu cara menyembunyikan data di dalam kelas supaya tidak bisa di
 
 ## Inheritance
 
-Inheritance itu konsep pewarisan, di mana ketika saya membuat sebuah sebuah kelas bisa mewarisi atribut dan method dari kelas lain. Di program ini saya juga membuat beberapa kelas diantaranya:  `Square` dan `Circle` mewarisi kelas `Shape`, sedangkan `Cylinder` mewarisi kelas `Circle`. Jadi, `Square` dan `Circle` otomatis punya atribut `color` dan method dari `Shape` tanpa perlu menulis ulang. Begitu juga `Cylinder` yang otomatis punya `radius` dan method `area()` dari `Circle`. Setiap constructor di kelas anak memanggil `super(...)` untuk menginisialisasi bagian dari kelas induknya terlebih dahulu, baru kemudian menginisialisasi atributnya sendiri. Contohnya, constructor `Cylinder` memanggil `super(radius, color)` untuk mengurus bagian `Circle`, lalu baru menyimpan nilai `height` miliknya sendiri, begitu kurang lebih.
+Inheritance itu konsep pewarisan, di mana ketika saya membuat sebuah  kelas yang bisa mewarisi atribut dan method dari kelas lain. Di program ini saya juga membuat beberapa kelas diantaranya:  `Square` dan `Circle` mewarisi kelas `Shape`, sedangkan `Cylinder` mewarisi kelas `Circle`. Jadi, `Square` dan `Circle` otomatis punya atribut `color` dan method dari `Shape` tanpa perlu menulis ulang. Begitu juga `Cylinder` yang otomatis punya `radius` dan method `area()` dari `Circle`. Setiap constructor di kelas anak memanggil `super(...)` untuk menginisialisasi bagian dari kelas induknya terlebih dahulu, baru kemudian menginisialisasi atributnya sendiri. Contohnya, constructor `Cylinder` memanggil `super(radius, color)` untuk mengurus bagian `Circle`, lalu baru menyimpan nilai `height` miliknya sendiri, begitu kurang lebih.
 
 
 ##  Polymorphism
