@@ -12,7 +12,7 @@ Inheritance itu konsep pewarisan, di mana ketika saya membuat sebuah sebuah kela
 ##  Polymorphism
 
 Polymorphism artinya satu method bisa punya banyak bentuk perilaku. Di kode ini saya membuat setiap kelas punya method `printInfo()`, tapi isinya berbeda-beda. `Square` menampilkan luas persegi, `Circle` menampilkan luas lingkaran, dan `Cylinder` menampilkan volume silinder. Meskipun nama method yang saya buat itu sama semua tapi hasil output-nya berbeda sesuai objek yang memanggilnya. Ini disebut method overriding, dan ditandai dengan `@Override` di atas method. Dari output program terlihat bahwa `printInfo()` yang dipanggil pada objek `Square`, `Circle`, dan `Cylinder` menghasilkan tiga baris output yang berbeda, walaupun nama method-nya sama. Inilah yang disebut Runtime Polymorphism, di mana Java menentukan method mana yang dijalankan berdasarkan objek aslinya, bukan tipe variabelnya.
-=======
+
 # Inheritance-dan-Polymorphism
 Eksplorasi Materi Inheritance dan Polymorphism di kelas.
 >>>>>>> 20f4d10b41fbfb0366751b4eb73e61488fa74723
